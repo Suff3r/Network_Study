@@ -1,0 +1,9 @@
+ TCP/IP协议四层协议族的分层：
+1.应用层：
+基于TCP的协议：HTTP,FTP,SMTP,TELNET,POP3，Finger,NNTP都是面向连接的
+基于UDP的协议：BOOTP,DHCP,NTP,TFTP,SNMP,均是面向非连接的
+DNS可以基于TCP，也可以基于UDP
+2.传输层：TCP，UDP
+3.网络层：IP,ICMP,IGMP,ARP,RARP
+4.网络接口层（数据链路层）：FDDI,Ethernet,PPP,IEEE 802.1A到IEEE 802.11
+
